@@ -1,0 +1,17 @@
+<resources>
+    <string name="count">Anzahl</string>
+    <string name="adult">Erwachsener:</string>
+    <string name="app_name">ACO Eingangerfassung</string>
+    <string name="sum">Preis</string>
+    <string name="child">Kind:</string>
+    <string name="scanBtn">QR Code scannen</string>
+    <string name="total">Gesamt:</string>
+    <string name="submitBtn">Erfassen</string>
+    <string name="resetBtn">Reset</string>
+    <string-array name="dropDownList">
+        <item>Sonstige</item>
+        <item>Flyer</item>
+        <item>Facebook</item>
+        <item>Freunde/Familie</item>
+    </string-array>
+</resources>
