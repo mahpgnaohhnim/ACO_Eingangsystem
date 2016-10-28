@@ -25,10 +25,6 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/src/main/AndroidManifest.xml:9:5-80
 	android:name
 		ADDED from /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/src/main/AndroidManifest.xml:9:22-77
-uses-permission#android.permission.CAMERA
-ADDED from /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/src/main/AndroidManifest.xml:10:5-65
-	android:name
-		ADDED from /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/src/main/AndroidManifest.xml:10:22-62
 application
 ADDED from /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/src/main/AndroidManifest.xml:13:5-27:19
 MERGED from [com.android.support:design:24.2.1] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/AndroidManifest.xml:22:5-20
@@ -41,8 +37,6 @@ MERGED from [com.android.support:support-fragment:24.2.1] /home/henry/AndroidStu
 MERGED from [com.android.support:appcompat-v7:24.2.1] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/AndroidManifest.xml:22:5-20
-MERGED from [me.dm7.barcodescanner:zbar:1.9] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.9/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.9/AndroidManifest.xml:11:5-20
 	android:label
 		ADDED from /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/src/main/AndroidManifest.xml:16:9-41
 	android:supportsRtl
@@ -80,8 +74,6 @@ MERGED from [com.android.support:appcompat-v7:24.2.1] /home/henry/AndroidStudioP
 MERGED from [com.android.support:support-vector-drawable:24.2.1] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:24.2.1] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/AndroidManifest.xml:20:5-43
-MERGED from [me.dm7.barcodescanner:zbar:1.9] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.9/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.9/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.2.1] /home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
