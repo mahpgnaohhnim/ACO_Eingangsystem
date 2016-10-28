@@ -8,6 +8,10 @@
     <string name="total">Gesamt:</string>
     <string name="submitBtn">Erfassen</string>
     <string name="resetBtn">Reset</string>
+    <string name="deleteLastLine">Korrigieren</string>
+    <string name="alertDeleteLinePositive">Ja</string>
+    <string name="alertDeleteLineNegative">Nein</string>
+    <string name="alertDeleteLineMessage">Letzte Zeile Löschen?</string>
     <string-array name="dropDownList">
         <item>Sonstige</item>
         <item>Flyer</item>

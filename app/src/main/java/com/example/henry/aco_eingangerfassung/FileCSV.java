@@ -9,6 +9,7 @@ import android.webkit.MimeTypeMap;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.RandomAccessFile;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.lang.String;
@@ -84,6 +85,26 @@ public class FileCSV {
             type = mime.getMimeTypeFromExtension(extension);
         }
         return type;
+    }
+
+    public void deleteLastLine(){
+        try{
+            File path = context.getExternalFilesDir(null);
+            File file = new File(path, fileName);
+            RandomAccessFile f = new RandomAccessFile(file, "rw");
+            byte b;
+            long length = f.length() - 1;
+            do {
+                length -= 1;
+                f.seek(length);
+                b = f.readByte();
+            } while(b != 10);
+            f.setLength(length+1);
+            f.close();
+        }catch (IOException e){
+            //Exception
+        }
+
     }
 
 

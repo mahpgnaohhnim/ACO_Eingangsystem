@@ -2,9 +2,11 @@ package com.example.henry.aco_eingangerfassung;
 
 
 import android.Manifest;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,7 +18,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button addChildBtn, addAdultBtn, removeChildBtn, removeAdultBtn, showListBtn, submitBtn, resetBtn;/*scanQRBtn*/
+    Button addChildBtn, addAdultBtn, removeChildBtn, removeAdultBtn, showListBtn, submitBtn, resetBtn, deleteLineBtn, scanQRBtn;
     TextView countChild, countAdult, childSum, adultSum, totalCount, totalSum;
     int currentAdultCount, currentChildCount;
     Spinner dropDown;
@@ -47,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         showListBtn = (Button) findViewById(R.id.showListBtn);
         submitBtn = (Button) findViewById(R.id.submitBtn);
         resetBtn = (Button) findViewById(R.id.resetBtn);
+        deleteLineBtn = (Button) findViewById(R.id.deleteLineBtn);
 
         dropDown = (Spinner) findViewById(R.id.dropdown);
 
@@ -107,6 +110,20 @@ public class MainActivity extends AppCompatActivity {
                 showCSVList();
             }
         });
+
+        deleteLineBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                deleteLine();
+            }
+        });
+
+        /*scanQRBtn.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+               callQRScanner();
+            }
+        });*/
     }
 
     private void submit(){
@@ -189,6 +206,11 @@ public class MainActivity extends AppCompatActivity {
                 requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
                 requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 1);
             }
+            if(checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED){
+                System.out.println("yeah");
+            } else{
+                requestPermissions(new String[]{Manifest.permission.CAMERA}, 1);
+            }
         }else{
             Log.v("Permission", "Permission Granted");
         }
@@ -198,5 +220,31 @@ public class MainActivity extends AppCompatActivity {
         Intent csvViever = csvFilehandler.showFile();
         startActivity(csvViever);
     }
+
+    private void deleteLine(){
+        AlertDialog.Builder alertDelete = new AlertDialog.Builder(this);
+        alertDelete.setMessage(R.string.alertDeleteLineMessage)
+                .setPositiveButton(R.string.alertDeleteLinePositive, new DialogInterface.OnClickListener(){
+
+                    public void onClick(DialogInterface dialog, int id){
+                        csvFilehandler.deleteLastLine();
+                    }
+
+                })
+                .setNegativeButton(R.string.alertDeleteLineNegative, new  DialogInterface.OnClickListener(){
+                   public void onClick(DialogInterface dialog, int id){
+                       dialog.cancel();
+                   }
+                });
+
+        AlertDialog alertDialog = alertDelete.create();
+        alertDialog.show();
+
+    }
+/*
+    private void callQRScanner(){
+        Intent intentQRScanner = new Intent(this, ZBarScannerActivity.class);
+        startActivity(intentQRScanner);
+    }*/
 
 }

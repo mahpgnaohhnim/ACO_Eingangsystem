@@ -2,5 +2,9 @@
     {
         "merged": "/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/icon_launcher.png",
+        "source": "/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/src/main/res/mipmap-xxxhdpi/icon_launcher.png"
     }
 ]

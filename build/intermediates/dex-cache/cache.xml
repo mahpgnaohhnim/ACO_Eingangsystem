@@ -2,157 +2,211 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="474dacaab6619eefcd42e19513d667d93686d895">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6822457fd24c9ff071c82d862bde270399f03796/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_3283e577c1722ccd07075d87ddf98e14c06f26e8.jar" />
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_3283e577c1722ccd07075d87ddf98e14c06f26e8/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_b0c002eb2b5e2bf032f1c409c6196d28e58f853d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_833f45555d308b4b30694938eab3c0fde074de21.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_52f06e47c0f6ade0df0bab8f7ab60061968eea9e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_8df1df11b3bb0b9cdf6ec30149f2107cd037fdbd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_2b51f710decde1fd6ed758edc4ba8fd99239c378.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_e8f94808e03efcb1162f683125f32c204c8da331.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_95351248563fd14f147c05b969071598e57617d5.jar" />
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_95351248563fd14f147c05b969071598e57617d5/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_bbb86d413b7dec1e396cea91095888f70c90c61f.jar" />
+        sha1="9d7afd6815a2819db8b0fab28aee47fe42f7776a">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6eb7aab0caa413eb7708235d98cad3974983a37a/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/libs/zbar.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_2548001404de4418efd5f874be16917c552b2af9.jar" />
+        sha1="0a7b88ba1496a0b4af76069ad40dacd3897149e0">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/2/zbar_44d39742225fb35b88192a9255a3a5f158f9732c/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_6e43b09188cd52f0b5c0ddb46725a40d1fb92a5d.jar" />
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_52f06e47c0f6ade0df0bab8f7ab60061968eea9e/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/home/henry/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_82a5c420fcbdce91ef7b20ddd7cc42514d21c336.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_303faf2efad7ea23b6eb83173a157c1f05255dfc.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b9d9cab869e91c882a7336eca68237b1c9c1980d.jar" />
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b9d9cab869e91c882a7336eca68237b1c9c1980d/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_5608a51c05164b8bde5173111b8e9bef512c4a0c.jar" />
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_5608a51c05164b8bde5173111b8e9bef512c4a0c/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e8f94808e03efcb1162f683125f32c204c8da331/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_8df1df11b3bb0b9cdf6ec30149f2107cd037fdbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_6e43b09188cd52f0b5c0ddb46725a40d1fb92a5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_833f45555d308b4b30694938eab3c0fde074de21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.9/jars/libs/zbar.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4df0a52cda126044b2c24225c12f322da30a50d6">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/zbar_bc5f07c4445830167ac5d2584ae367d3e072fedc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_2b51f710decde1fd6ed758edc4ba8fd99239c378/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_2548001404de4418efd5f874be16917c552b2af9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_82a5c420fcbdce91ef7b20ddd7cc42514d21c336/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_b0c002eb2b5e2bf032f1c409c6196d28e58f853d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_bbb86d413b7dec1e396cea91095888f70c90c61f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_303faf2efad7ea23b6eb83173a157c1f05255dfc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/core/1.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ceda0650ec225b9c0143ed8ff1c010d4e621a423">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-core-1.9_3574e75a42de56eeee29160a0f5a2f8537e6a395/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_1056e681a7e66b8b4c3275030ebf143717543bb3.jar" />
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_1056e681a7e66b8b4c3275030ebf143717543bb3/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f6d34cccb6643c3ac62afcfb99068a707760cff9.jar" />
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f6d34cccb6643c3ac62afcfb99068a707760cff9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/exploded-aar/me.dm7.barcodescanner/zbar/1.9/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6aad88662d0c2640c6024049b8b0d50d2067c071">
+        <dex dex="/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.dm7.barcodescanner-zbar-1.9_b615cc55aef07d1560d751c394053135c943a9e5/classes.dex" />
     </item>
 
 </items>

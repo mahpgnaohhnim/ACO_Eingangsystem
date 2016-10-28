@@ -1,4 +1,7 @@
-#Tue Oct 25 20:48:48 CEST 2016
-base.0=/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Fri Oct 28 11:20:15 CEST 2016
+base.0=/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6822457fd24c9ff071c82d862bde270399f03796
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6eb7aab0caa413eb7708235d98cad3974983a37a/classes.dex
+base.1=/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6eb7aab0caa413eb7708235d98cad3974983a37a
+file.0=/home/henry/AndroidStudioProjects/ACO_Eingangerfassung/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_6822457fd24c9ff071c82d862bde270399f03796/classes.dex
