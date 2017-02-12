@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
@@ -225,8 +226,7 @@
             android:id="@+id/showListBtn"
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:text="Liste Anzeigen"
-            />
+            android:text="Liste Anzeigen" />
 
         <Button
             android:id="@+id/deleteLineBtn"
@@ -235,13 +235,13 @@
             android:background="@android:color/holo_red_light"
             android:text="@string/deleteLastLine" />
 
-        <!--<Button
+        <Button
             android:id="@+id/scanBtn"
             android:layout_width="100dp"
             android:layout_height="match_parent"
             android:layout_marginLeft="2dp"
             android:background="@android:color/holo_purple"
-            android:text="@string/scanBtn" />-->
+            android:text="@string/scanBtn" />
     </TableRow>
 
 
