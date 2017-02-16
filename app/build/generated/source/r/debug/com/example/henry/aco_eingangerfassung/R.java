@@ -3979,6 +3979,7 @@ containing a value of this type.
         public static final int audio_empty_message=0x7f0f00ec;
         public static final int audio_list_view=0x7f0f00ea;
         public static final int auto=0x7f0f002f;
+        public static final int backToMainBtn=0x7f0f0125;
         public static final int background_image_view=0x7f0f00ca;
         public static final int background_place_holder_image_view=0x7f0f00ce;
         public static final int beginning=0x7f0f0052;
@@ -3996,6 +3997,7 @@ containing a value of this type.
         public static final int buy_now=0x7f0f0077;
         public static final int buy_with=0x7f0f0078;
         public static final int buy_with_google=0x7f0f0079;
+        public static final int cameraPreview=0x7f0f0124;
         public static final int cancel_action=0x7f0f0112;
         public static final int cast_button_type_closed_caption=0x7f0f0004;
         public static final int cast_button_type_custom=0x7f0f0005;
@@ -4318,10 +4320,11 @@ containing a value of this type.
         public static final int place_autocomplete_item_powered_by_google=0x7f04003d;
         public static final int place_autocomplete_item_prediction=0x7f04003e;
         public static final int place_autocomplete_progress=0x7f04003f;
-        public static final int select_dialog_item_material=0x7f040040;
-        public static final int select_dialog_multichoice_material=0x7f040041;
-        public static final int select_dialog_singlechoice_material=0x7f040042;
-        public static final int support_simple_spinner_dropdown_item=0x7f040043;
+        public static final int scanner_activity=0x7f040040;
+        public static final int select_dialog_item_material=0x7f040041;
+        public static final int select_dialog_multichoice_material=0x7f040042;
+        public static final int select_dialog_singlechoice_material=0x7f040043;
+        public static final int support_simple_spinner_dropdown_item=0x7f040044;
     }
     public static final class mipmap {
         public static final int ic_launcher=0x7f030000;

@@ -1185,6 +1185,7 @@ int id android_pay_light_with_border 0x7f0f007f
 int id audio_empty_message 0x7f0f00ec
 int id audio_list_view 0x7f0f00ea
 int id auto 0x7f0f002f
+int id backToMainBtn 0x7f0f0125
 int id background_image_view 0x7f0f00ca
 int id background_place_holder_image_view 0x7f0f00ce
 int id beginning 0x7f0f0052
@@ -1202,6 +1203,7 @@ int id buyButton 0x7f0f0073
 int id buy_now 0x7f0f0077
 int id buy_with 0x7f0f0078
 int id buy_with_google 0x7f0f0079
+int id cameraPreview 0x7f0f0124
 int id cancel_action 0x7f0f0112
 int id cast_button_type_closed_caption 0x7f0f0004
 int id cast_button_type_custom 0x7f0f0005
@@ -1518,10 +1520,11 @@ int layout place_autocomplete_fragment 0x7f04003c
 int layout place_autocomplete_item_powered_by_google 0x7f04003d
 int layout place_autocomplete_item_prediction 0x7f04003e
 int layout place_autocomplete_progress 0x7f04003f
-int layout select_dialog_item_material 0x7f040040
-int layout select_dialog_multichoice_material 0x7f040041
-int layout select_dialog_singlechoice_material 0x7f040042
-int layout support_simple_spinner_dropdown_item 0x7f040043
+int layout scanner_activity 0x7f040040
+int layout select_dialog_item_material 0x7f040041
+int layout select_dialog_multichoice_material 0x7f040042
+int layout select_dialog_singlechoice_material 0x7f040043
+int layout support_simple_spinner_dropdown_item 0x7f040044
 int mipmap ic_launcher 0x7f030000
 int mipmap icon_launcher 0x7f030001
 int raw gtm_analytics 0x7f070000

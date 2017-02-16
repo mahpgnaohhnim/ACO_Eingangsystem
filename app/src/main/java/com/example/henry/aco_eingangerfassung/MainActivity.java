@@ -15,16 +15,21 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.vision.barcode.Barcode;
 
 public class MainActivity extends AppCompatActivity {
 
 
+    public static final int REQUEST_CODE = 100;
     Button addChildBtn, addAdultBtn, removeChildBtn, removeAdultBtn, showListBtn, submitBtn, resetBtn, deleteLineBtn, scanQRBtn;
     TextView countChild, countAdult, childSum, adultSum, totalCount, totalSum;
     int currentAdultCount, currentChildCount;
     Spinner dropDown;
     EditText postalCode;
     FileCSV csvFilehandler = new FileCSV(this);
+    String barcodeResult;
 
 
     @Override
@@ -119,6 +124,27 @@ public class MainActivity extends AppCompatActivity {
                 deleteLine();
             }
         });
+
+        scanQRBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent barCodeScannerIntent = new Intent(MainActivity.this, BarCodeScanner.class);
+                startActivityForResult(barCodeScannerIntent, REQUEST_CODE);
+            }
+        });
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+        if(requestCode==REQUEST_CODE && resultCode == RESULT_OK){
+            if(data != null){
+                Barcode barcode = data.getParcelableExtra("barcode");
+                barcodeResult = barcode.rawValue;
+                Toast.makeText(getApplicationContext(),barcodeResult, 2000).show();
+
+            }
+        }
 
     }
 
@@ -237,5 +263,4 @@ public class MainActivity extends AppCompatActivity {
         alertDialog.show();
 
     }
-
 }
